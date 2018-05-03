@@ -19,7 +19,7 @@ def create_app(script_info=None):
     # instantiate the app
     app = Flask(__name__)
 
-     # enable CORS
+    # enable CORS
     CORS(app)
 
     # set config
